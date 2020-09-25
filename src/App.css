@@ -48,6 +48,7 @@ video {
 }
 .navBar ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .navBar img {
   width: 8%;
@@ -129,5 +130,21 @@ a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 414px) {
+  .header{
+    height: 300px;
+  }
+}
+@media (max-width: 1024px){
+.app button{
+  width: 30%;
+}
+}
+@media (max-width: 414px){
+  .app button{
+    height: 80px;
   }
 }
