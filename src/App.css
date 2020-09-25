@@ -1,0 +1,133 @@
+* {
+  margin: auto;
+}
+.app button {
+  cursor: pointer;
+  background: transparent;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+    width: 10%;
+    height: 40px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.App {
+  text-align: center;
+  background-color: black;
+}
+a.current{
+   color:red;
+}
+video {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+  width: 60%;
+}
+.imgPreview{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+  width: 60%;
+  margin-left: 20%;
+}
+.movie {
+  background-color: black;
+}
+.contour-listGame {
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #ff00c8;
+}
+.navBar ul {
+  display: flex;
+}
+.navBar img {
+  width: 8%;
+  margin-right: 5px;
+}
+li {
+  list-style: none;
+}
+.modalFooter{
+  margin-left: auto;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+  text-align: center;
+  margin-top: 50px;
+  height: 70%;
+}
+.home p {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.header {
+  background-color: black;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+  height: 100px;
+}
+.main {
+  background-color: black;
+}
+.listPicture img {
+  width: 50%;
+  border: solid 3px rgb(238, 219, 243);
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #ff00c8;
+}
+.listPicture p {
+  font-size: xx-large;
+  color: white;
+}
+.footer {
+  background-color: black;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
+    0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+  height: 100px;
+}
+a {
+  text-decoration: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
