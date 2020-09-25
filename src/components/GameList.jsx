@@ -47,13 +47,13 @@ const GameList = () => {
   };
   return listGames !== null && screenshots !== null && actionGame !== null ? (
     <div className="app">
-      <button onClick={() => setListGames(bestGame)}>Best Games</button>
+      <button onClick={() => setListGames(bestGame)}>Bests</button>
       <button onClick={() => setListGames(allGames)}>All Games</button>
-      <button onClick={() => setListGames(actionGame)}>Action Games</button>
-      <button onClick={() => setListGames(shooterGame)}>Shooter Games</button>
-      <button onClick={() => setListGames(rpgGame)}>RPG Games</button>
+      <button onClick={() => setListGames(actionGame)}>Action</button>
+      <button onClick={() => setListGames(shooterGame)}>Shooter</button>
+      <button onClick={() => setListGames(rpgGame)}>RPG</button>
       <button onClick={() => setListGames(adventureGame)}>
-        Adventure Games
+        Adventure
       </button>
       {listGames.map((item, i) => {
         return (

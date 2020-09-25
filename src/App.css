@@ -135,16 +135,26 @@ a {
 
 @media (max-width: 414px) {
   .header{
-    height: 300px;
+    height: 220px;
+  }
+   .app button{
+    height: 40px;
   }
 }
 @media (max-width: 1024px){
 .app button{
   width: 30%;
+  font-size: medium;
 }
 }
-@media (max-width: 414px){
+@media (max-width: 375px){
   .app button{
-    height: 80px;
+    font-size: small;
   }
+ .footer button{
+   width: 40px;
+
+ }
+  
+ 
 }
